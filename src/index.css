@@ -1,8 +1,9 @@
 .principal_indicator{
     height: 50px;
     width: 50px;
-    border: 3px solid  rgb(235, 235, 235);
+    border: 3px solid  rgb(235, 235, 235) !important;
 }
+
 .small_indicator{
     height: 14px;
     border: 1px solid rgb(255, 95, 95) !important;
@@ -11,7 +12,7 @@
 }
 .black_screen{
     height: 200px;
-
+    overflow-y: auto;
 }
 #screen{
     border-bottom: 3px solid rgb(209, 0, 0);
@@ -34,3 +35,7 @@
     border-radius: 6px;
 
 }
+.test{
+    margin-top: 5px;
+}
+
